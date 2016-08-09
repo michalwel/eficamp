@@ -1,5 +1,6 @@
 .backlog{
 	background: url("../image/login_background.png");
+	height: 100%;
 
 	.loginback{
 		background: #13bdd2;
@@ -7,6 +8,7 @@
 		border-radius:5px;
 		text-align:center;
 		color:white;
+		height: 550px;
 	}
 }
 .avatarlog {
@@ -18,5 +20,15 @@
     }
 .haslo{
 	margin-top:50px;
-	float: center;
+	width: 60%;
+    margin: 10px auto;
+    border-radius:4px;
  	}
+.buttonlog{
+	background: white;
+    border-radius: 4px;
+    line-height: 2;
+    width: 100px;
+    color: black;
+    margin: 0 auto;
+}
