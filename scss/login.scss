@@ -1,7 +1,6 @@
 .backlog{
 	background: url("../image/login_background.png");
 	height: 100%;
-
 	.loginback{
 		background: #13bdd2;
 		margin-top:50px;
@@ -12,23 +11,23 @@
 	}
 }
 .avatarlog {
-			img{border-radius:50%;
+		img{border-radius:50%;
 			}
 		margin-top: 60px;
    		margin-bottom: 40px;
   		position: relative;
-    }
+}
 .haslo{
 	margin-top:50px;
 	width: 60%;
     margin: 10px auto;
     border-radius:4px;
- 	}
+}
 .selgo{
 	display: -webkit-inline-box;
 	font-size: 11px;
 }
-.buttonlog{
+.buttonlog {
 	background: white;
     border-radius: 4px;
     line-height: 2;
