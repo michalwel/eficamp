@@ -32,7 +32,8 @@ $(document).ready(function(){
 					  url: "https://efigence-camp.herokuapp.com/api/login",
 					  error: function(response) {
 					    console.log(response.responseText);
-					    alert("Złe hasło");
+					    //wronglog ("Złe hasło");
+					    $("span.wronglog").text(response.responseJSON.message);
 					  },
 					  success: function(response) {
 					    console.log(response);
